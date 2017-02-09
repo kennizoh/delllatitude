@@ -52,9 +52,9 @@ then
  service network-manager restart
  echo "all done now, how was your experience, did you obtain your desired experience?"
 
- read userresponse
- touch /home/ken/Desktop/response.txt
- cat response.txt < $userresponse
+ #read userresponse
+ #touch /home/ken/Desktop/response.txt
+ #cat response.txt < $userresponse
 else
  echo "You must run this script as root for it to work correctly"
 
